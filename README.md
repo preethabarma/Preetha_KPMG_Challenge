@@ -1,4 +1,4 @@
-**Technical Challenge**
+## Technical Challenge
 
 We understand your time is precious, but as discussed, we ask each applicant to take on our small challenges. (Answers should be uploaded to a public GIT repository – ensuring there is nothing KPMG sensitive in the test below - there is no need for anything to be) There is no right or wrong approach and we're certainly not expecting war and peace 😊.
 
