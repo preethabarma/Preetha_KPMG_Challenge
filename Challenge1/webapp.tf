@@ -61,6 +61,15 @@ resource "azurerm_windows_web_app" "be-webapp" {
   ]
 }
 
+#vnet integration of frontend app
+resource "azurerm_app_service_virtual_network_swift_connection" "fe-vnet-integration" {
+  app_service_id = azurerm_windows_web_app.fe-webapp.id
+  subnet_id      = azurerm_subnet.fe-subnet.id
+  depends_on = [
+    azurerm_windows_web_app.fe-webapp
+  ]
+}
+
 #vnet integration of backend app
 resource "azurerm_app_service_virtual_network_swift_connection" "be-vnet-integration" {
   app_service_id = azurerm_windows_web_app.be-webapp.id
