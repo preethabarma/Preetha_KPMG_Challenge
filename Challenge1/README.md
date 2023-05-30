@@ -14,6 +14,12 @@ IAC: **Terraform** (open-source infrastructure as code software tool created by 
 
 ![image](https://github.com/preethabarma/Preetha_KPMG_Challenge/assets/77629130/6840a98f-6869-468d-be31-68827141fd34)
 
+**Specifications:**
+
++ Terraform version:  v1.4.6
++ provider registry.terraform.io/hashicorp/azurerm v3.58.0
++ provider registry.terraform.io/hashicorp/random v3.5.1
+
 
 
 **Deployment Steps:**
