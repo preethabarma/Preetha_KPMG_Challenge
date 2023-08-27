@@ -3,5 +3,6 @@ resource "azurerm_resource_group" "rg" {
   location = var.location_rg
   tags = {
     "Application" = "DemoApp"
+    "Subcription" = "Preetha"
   }
 }
